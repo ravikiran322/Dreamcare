@@ -171,4 +171,4 @@ You may modify and use it freely.
 
 ---
 
-Would you like an **upgraded README with visuals + emojis**, or this version is enough?
+live on-- https://dermadetect.netlify.app/
