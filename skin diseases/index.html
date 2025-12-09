@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dreamcare | Skin Disease Awareness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <div class="logo">
+          <span>Dreamcare</span>
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-expanded="false"
+            aria-controls="navMenu"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul id="navMenu">
+            <li class="nav-item has-children">
+              <button
+                class="nav-link"
+                type="button"
+                data-nav-toggle="products"
+                aria-expanded="false"
+              >
+                Products
+              </button>
+              <div class="nav-dropdown" data-nav-panel="products">
+                <div class="nav-dropdown-col">
+                  <p class="nav-dropdown-title">Product categories</p>
+                  <a href="#products">Facial cleansers</a>
+                  <a href="#products">Facial moisturisers</a>
+                  <a href="#products">Body moisturiser</a>
+                  <a href="#products">Sunscreens</a>
+                  <a href="#products">Baby skincare</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item has-children">
+              <button
+                class="nav-link"
+                type="button"
+                data-nav-toggle="concerns"
+                aria-expanded="false"
+              >
+                Skin concern
+              </button>
+              <div class="nav-dropdown" data-nav-panel="concerns">
+                <div class="nav-dropdown-col">
+                  <p class="nav-dropdown-title">By concern</p>
+                  <a href="#concerns">Acne & blemishes</a>
+                  <a href="#concerns">Dryness & eczema-prone</a>
+                  <a href="#concerns">Sensitivity & redness</a>
+                  <a href="#concerns">Uneven tone & dark spots</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item has-children">
+              <button
+                class="nav-link"
+                type="button"
+                data-nav-toggle="skin-types"
+                aria-expanded="false"
+              >
+                Skin type
+              </button>
+              <div class="nav-dropdown" data-nav-panel="skin-types">
+                <div class="nav-dropdown-col">
+                  <p class="nav-dropdown-title">By type</p>
+                  <a href="#skin-types">Dry skin</a>
+                  <a href="#skin-types">Combination skin</a>
+                  <a href="#skin-types">Normal skin</a>
+                  <a href="#skin-types">Oily skin</a>
+                  <a href="#skin-types">Sensitive skin</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item has-children">
+              <button
+                class="nav-link"
+                type="button"
+                data-nav-toggle="digital"
+                aria-expanded="false"
+              >
+                Digital skincare assist
+              </button>
+              <div class="nav-dropdown" data-nav-panel="digital">
+                <div class="nav-dropdown-col">
+                  <p class="nav-dropdown-title">Tools</p>
+                  <a href="#analysis">Product finder quiz</a>
+                  <a href="#analysis">AI skin analysis</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item has-children">
+              <button
+                class="nav-link"
+                type="button"
+                data-nav-toggle="tips"
+                aria-expanded="false"
+              >
+                Skincare tips
+              </button>
+              <div class="nav-dropdown" data-nav-panel="tips">
+                <div class="nav-dropdown-col">
+                  <p class="nav-dropdown-title">Learn</p>
+                  <a href="#tips">Routines</a>
+                  <a href="#tips">Skincare guides</a>
+                  <a href="#concerns">Skin concerns</a>
+                  <a href="#tips">Skin science</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item has-children">
+              <button
+                class="nav-link"
+                type="button"
+                data-nav-toggle="why"
+                aria-expanded="false"
+              >
+                Why Dreamcare
+              </button>
+              <div class="nav-dropdown" data-nav-panel="why">
+                <div class="nav-dropdown-col">
+                  <p class="nav-dropdown-title">About</p>
+                  <a href="#why">Our story</a>
+                  <a href="#why">Science-based skincare</a>
+                  <a href="#why">Sensitive skin focus</a>
+                  <a href="#ingredients">Our ingredients</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item has-children">
+              <button
+                class="nav-link"
+                type="button"
+                data-nav-toggle="ingredients"
+                aria-expanded="false"
+              >
+                Ingredients
+              </button>
+              <div class="nav-dropdown" data-nav-panel="ingredients">
+                <div class="nav-dropdown-col">
+                  <p class="nav-dropdown-title">Key actives</p>
+                  <a href="#ingredients">Hyaluronic acid</a>
+                  <a href="#ingredients">Ceramides</a>
+                  <a href="#ingredients">Niacinamide</a>
+                  <a href="#ingredients">Glycerin</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#contact" class="btn btn-ghost">Get Help</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Skin Health Matters</p>
+            <h1>Understanding skin diseases starts with awareness.</h1>
+            <p class="lead">
+              Learn to identify common skin conditions, explore treatment
+              options, and connect with dermatology professionals who can help
+              you feel confident in your skin.
+            </p>
+            <div class="hero-actions">
+              <a href="#concerns" class="btn">Explore Conditions</a>
+              <a href="#contact" class="btn btn-outline">Find a Specialist</a>
+            </div>
+            <div class="hero-stats">
+              <div>
+                <span class="stat-number">125+</span>
+                <span class="stat-label">Known skin disorders</span>
+              </div>
+              <div>
+                <span class="stat-number">1 in 4</span>
+                <span class="stat-label">People affected yearly</span>
+              </div>
+              <div>
+                <span class="stat-number">85%</span>
+                <span class="stat-label">Cases treatable early</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h2>Free Symptom Checklist</h2>
+            <p>
+              Answer a few quick questions to generate a personalized checklist
+              you can share with your dermatologist.
+            </p>
+            <form class="checklist-form" id="checklistForm">
+              <label>
+                Concerned area
+                <select name="area" required>
+                  <option value="">Choose one</option>
+                  <option>Face</option>
+                  <option>Scalp</option>
+                  <option>Arms</option>
+                  <option>Torso</option>
+                  <option>Legs</option>
+                </select>
+              </label>
+              <label>
+                Symptoms noticed
+                <input
+                  type="text"
+                  name="symptoms"
+                  placeholder="e.g. redness, scaling"
+                  required
+                />
+              </label>
+              <label>
+                Duration
+                <input
+                  type="text"
+                  name="duration"
+                  placeholder="e.g. 2 weeks"
+                  required
+                />
+              </label>
+              <button type="submit" class="btn btn-block">Generate list</button>
+              <p class="form-feedback" id="formFeedback" role="status"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="products">
+        <div class="container">
+          <p class="eyebrow">Dreamcare products</p>
+          <h2>Gentle routines for every skin journey.</h2>
+          <div class="card-grid product-grid">
+            <article class="disease-card">
+              <h3>Facial cleansers</h3>
+              <p class="tag">Daily care</p>
+              <p>
+                Low-foam, pH-balanced cleansers that remove sweat, pollution,
+                and makeup without stripping your skin barrier.
+              </p>
+              <ul>
+                <li>Gel and cream textures for different skin types.</li>
+                <li>Soap-free, fragrance-free options available.</li>
+                <li>Dermatologist tested for daily use.</li>
+              </ul>
+            </article>
+            <article class="disease-card">
+              <h3>Moisturisers</h3>
+              <p class="tag">Barrier repair</p>
+              <p>
+                Face and body moisturisers with ceramides and humectants to
+                lock in hydration all day.
+              </p>
+              <ul>
+                <li>Lightweight lotions and rich creams.</li>
+                <li>Options for dry, oily, and sensitive skin.</li>
+                <li>Clinically tested for 24-hour hydration.</li>
+              </ul>
+            </article>
+            <article class="disease-card">
+              <h3>Sunscreens</h3>
+              <p class="tag">SPF care</p>
+              <p>
+                Broad-spectrum SPF that helps defend against UVA/UVB damage
+                while staying comfortable on sensitive skin.
+              </p>
+              <ul>
+                <li>Everyday and outdoor formulas.</li>
+                <li>Sheer finishes that layer under makeup.</li>
+                <li>Recommended for all skin tones.</li>
+              </ul>
+            </article>
+            <article class="disease-card">
+              <h3>Baby skincare</h3>
+              <p class="tag">Extra gentle</p>
+              <p>
+                Ultra-mild cleansers and lotions designed for newborn and
+                toddler skin with minimal ingredients.
+              </p>
+              <ul>
+                <li>Pediatrician tested.</li>
+                <li>Tear-free, soap-free cleansers.</li>
+                <li>Fragrance-free options available.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="concerns">
+        <div class="container">
+          <p class="eyebrow">Skin concerns</p>
+          <h2>Match your concern to the right routine.</h2>
+          <div class="card-grid concern-grid">
+            <article class="disease-card">
+              <h3>Acne & blemishes</h3>
+              <p class="tag">Clarifying</p>
+              <p>
+                Gentle foaming cleansers and lightweight moisturisers that
+                respect the barrier while helping reduce breakouts.
+              </p>
+            </article>
+            <article class="disease-card">
+              <h3>Dryness & eczema-prone</h3>
+              <p class="tag">Soothing</p>
+              <p>
+                Rich, ceramide-infused creams that support moisture retention
+                and comfort itch-prone skin.
+              </p>
+            </article>
+            <article class="disease-card">
+              <h3>Sensitivity & redness</h3>
+              <p class="tag">Calming</p>
+              <p>
+                Minimal-ingredient formulas that avoid common irritants and help
+                visibly calm stressed skin.
+              </p>
+            </article>
+            <article class="disease-card">
+              <h3>Uneven tone & dark spots</h3>
+              <p class="tag">Brightening</p>
+              <p>
+                Niacinamide and vitamin C–based formulas designed to support a
+                more even-looking tone over time.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skin-types">
+        <div class="container two-col">
+          <div>
+            <p class="eyebrow">Skin types</p>
+            <h2>Find a routine that fits your skin’s personality.</h2>
+            <p>
+              Whether your skin feels tight, shiny, or somewhere in between,
+              Dreamcare helps you build a simple, sustainable routine.
+            </p>
+            <ul class="feature-list">
+              <li>Dry skin: replenish with ceramides and lipids.</li>
+              <li>Oily skin: balance with light textures and non-comedogenic actives.</li>
+              <li>Sensitive skin: prioritise fragrance-free formulas.</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>How to identify your type</h3>
+            <ol>
+              <li>Cleanse, then wait 30 minutes with no products.</li>
+              <li>Observe shine, tightness, or irritation.</li>
+              <li>Note how products feel during the day.</li>
+              <li>Use this information to fine-tune your regimen.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="analysis">
+        <div class="container analysis-grid">
+          <div>
+            <p class="eyebrow">AI skin analysis</p>
+            <h2>Get a personalized skin report in four quick steps.</h2>
+            <p class="lead">
+              Inspired by the Cetaphil AI Skin Analysis flow, snap a selfie,
+              let the tool scan, and receive a tailored routine you can discuss
+              with your dermatologist.
+            </p>
+            <div class="steps">
+              <div class="step">
+                <span class="step-number">1</span>
+                <div>
+                  <h3>Open on mobile</h3>
+                  <p>Launch the AI skin analyzer on your phone.</p>
+                </div>
+              </div>
+              <div class="step">
+                <span class="step-number">2</span>
+                <div>
+                  <h3>Take a selfie</h3>
+                  <p>Capture a clear, well-lit photo of your face.</p>
+                </div>
+              </div>
+              <div class="step">
+                <span class="step-number">3</span>
+                <div>
+                  <h3>Instant scan</h3>
+                  <p>AI reviews hydration, texture, and visible concerns.</p>
+                </div>
+              </div>
+              <div class="step">
+                <span class="step-number">4</span>
+                <div>
+                  <h3>Get your plan</h3>
+                  <p>Download your personalized report and routine.</p>
+                </div>
+              </div>
+            </div>
+            <div class="hero-actions">
+              <a
+                class="btn"
+                href="https://www.cetaphil.in/skin-analysis.html"
+                target="_blank"
+                rel="noreferrer"
+                >Try AI Skin Analysis</a
+              >
+              <a href="#contact" class="btn btn-outline">Talk to a specialist</a>
+            </div>
+            <p class="hint">
+              Or try the simple in-page analyzer on the right to generate a
+              sample routine based on your skin type and concerns.
+            </p>
+          </div>
+          <div class="analysis-card">
+            <p class="tag">Interactive demo</p>
+            <h3>Try a basic AI-style skin analysis</h3>
+            <form id="aiForm" class="ai-form">
+              <label>
+                Upload a clear selfie
+                <input
+                  type="file"
+                  id="selfieInput"
+                  accept="image/*"
+                  capture="user"
+                />
+              </label>
+              <div class="selfie-preview" id="selfiePreviewWrapper">
+                <span class="preview-placeholder"
+                  >Your selfie preview will appear here.</span
+                >
+                <img id="selfiePreview" alt="" />
+              </div>
+
+              <label>
+                Your skin type
+                <select name="skinType" required>
+                  <option value="">Select one</option>
+                  <option value="dry">Dry</option>
+                  <option value="oily">Oily</option>
+                  <option value="combination">Combination</option>
+                  <option value="normal">Normal</option>
+                  <option value="sensitive">Sensitive</option>
+                </select>
+              </label>
+
+              <fieldset class="chip-group">
+                <legend>Main concerns</legend>
+                <label>
+                  <input type="checkbox" name="concerns" value="acne" />
+                  Acne & blemishes
+                </label>
+                <label>
+                  <input type="checkbox" name="concerns" value="dryness" />
+                  Dryness & flaking
+                </label>
+                <label>
+                  <input type="checkbox" name="concerns" value="redness" />
+                  Redness / sensitivity
+                </label>
+                <label>
+                  <input type="checkbox" name="concerns" value="spots" />
+                  Dark spots / uneven tone
+                </label>
+                <label>
+                  <input type="checkbox" name="concerns" value="aging" />
+                  Fine lines
+                </label>
+              </fieldset>
+
+              <label>
+                Typical sun exposure
+                <select name="sunExposure" required>
+                  <option value="">Choose one</option>
+                  <option value="low">Mostly indoors</option>
+                  <option value="medium">Some outdoor time</option>
+                  <option value="high">Frequent direct sun</option>
+                </select>
+              </label>
+
+              <button type="submit" class="btn btn-block">
+                Analyze my skin
+              </button>
+              <p class="disclaimer">
+                This demo is for education only and does not replace a
+                professional diagnosis.
+              </p>
+            </form>
+
+            <div id="aiResult" class="ai-result" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="tips">
+        <div class="container care-layout">
+          <div class="care-copy">
+            <p class="eyebrow">Skincare tips & guides</p>
+            <h2>Daily habits that protect your skin.</h2>
+            <p>
+              Small, consistent habits can radically improve skin resilience.
+              Build a custom routine across sun care, nutrition, and hygiene.
+            </p>
+            <div class="accordion" id="careAccordion">
+              <button class="accordion-item" aria-expanded="false">
+                Sun protection basics
+              </button>
+              <div class="accordion-panel">
+                <p>
+                  Apply broad-spectrum sunscreen, SPF 30 or higher, reapplying
+                  every two hours or after swimming or sweating.
+                </p>
+              </div>
+              <button class="accordion-item" aria-expanded="false">
+                Building a simple routine
+              </button>
+              <div class="accordion-panel">
+                <p>
+                  Start with three steps: cleanse, moisturise, protect. Layer in
+                  targeted treatments slowly.
+                </p>
+              </div>
+              <button class="accordion-item" aria-expanded="false">
+                Ingredients to know
+              </button>
+              <div class="accordion-panel">
+                <p>
+                  Learn how humectants, emollients, and occlusives work
+                  together to keep skin comfortable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="care-card">
+            <h3>When to seek help</h3>
+            <ul>
+              <li>Sudden changes in mole shape or color.</li>
+              <li>Painful or rapidly spreading rashes.</li>
+              <li>Recurring infections or non-healing wounds.</li>
+              <li>Symptoms impacting sleep or daily activities.</li>
+            </ul>
+            <a href="#contact" class="btn btn-block">Book consultation</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="why">
+        <div class="container two-col">
+          <div>
+            <p class="eyebrow">Why Dreamcare</p>
+            <h2>Science-based skincare for sensitive skin.</h2>
+            <p>
+              Dreamcare focuses on barrier-respecting, dermatologist-aligned
+              formulas and clear education so you can feel confident about what
+              goes on your skin.
+            </p>
+            <div class="resource-list">
+              <span>Dermatologist-aligned recommendations</span>
+              <span>Routines built around sensitivity and tolerance</span>
+              <span>Guides written in clear, accessible language</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p class="quote">
+              “Dreamcare helped me understand my skin triggers and build a
+              routine I can actually stick to every day.”
+            </p>
+            <p class="quote-attrib">— Ananya, combination skin</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="ingredients">
+        <div class="container">
+          <p class="eyebrow">Key ingredients</p>
+          <h2>What’s inside your routine matters.</h2>
+          <div class="card-grid ingredient-grid">
+            <article class="disease-card">
+              <h3>Hyaluronic acid</h3>
+              <p class="tag">Hydration</p>
+              <p>
+                A powerful humectant that attracts and binds water to help keep
+                skin feeling plump and comfortable.
+              </p>
+            </article>
+            <article class="disease-card">
+              <h3>Ceramides</h3>
+              <p class="tag">Barrier support</p>
+              <p>
+                Lipids that help reinforce the skin barrier so it can retain
+                moisture and defend against irritants.
+              </p>
+            </article>
+            <article class="disease-card">
+              <h3>Niacinamide</h3>
+              <p class="tag">Tone & calm</p>
+              <p>
+                A form of vitamin B3 that supports a more even look and helps
+                ease visible redness.
+              </p>
+            </article>
+            <article class="disease-card">
+              <h3>Glycerin</h3>
+              <p class="tag">Everyday comfort</p>
+              <p>
+                A gentle, widely used humectant that draws water into the
+                outermost layers of skin.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Need support?</p>
+            <h2>Connect with licensed professionals.</h2>
+            <p>
+              Complete the form and we’ll send a curated list of dermatologists
+              in your area, along with educational materials tailored to your
+              symptoms.
+            </p>
+            <ul class="contact-points">
+              <li>Email: care@dreamcare.org</li>
+              <li>Hotline: +1 (800) 555-0121</li>
+              <li>Live chat available 9am–7pm local time</li>
+            </ul>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <label>
+              Full name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email address
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Location
+              <input type="text" name="location" placeholder="City, Country" />
+            </label>
+            <label>
+              Primary concern
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Describe symptoms or questions"
+                required
+              ></textarea>
+            </label>
+            <button type="submit" class="btn btn-block">Request guide</button>
+            <p class="form-feedback" id="contactFeedback" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Dreamcare. Skin education for all.</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
