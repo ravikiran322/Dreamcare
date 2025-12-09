@@ -148,15 +148,10 @@ Railway is usually for backend apps, but you can still deploy static sites.
 
 ---
 
-## 📷 Screenshots (Optional Section)
-
-(Add screenshots here if you want your GitHub README to look premium.)
-
----
 
 ## 🧑‍💻 Author
 
-**Varsha S**
+**Ravikiran C**
 Full-Stack & AI Enthusiast
 
 ---
