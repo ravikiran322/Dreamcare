@@ -1,8 +1,3 @@
-Here is a **clean, professional GitHub-ready README** for your Dreamcare Skin Disease Awareness Website, fully matching your HTML/CSS/JS project structure.
-
-You can copy-paste this directly into a **README.md** file.
-
----
 
 # 🌿 Dreamcare – Skin Disease Awareness & AI-Style Skin Analysis
 
